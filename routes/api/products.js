@@ -18,6 +18,7 @@ db.connect( (err) => {
                 }else{
                     if(rows.length > 0){
                         res.send(rows);
+                       
                     }else{
                         res.send({
                         message: "there no data..."
@@ -26,6 +27,9 @@ db.connect( (err) => {
                     
                 }
             });
+            res.header('Access-Control-Allow-Origin', '*');
+            res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+            res.header('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
         });
 
         //Get by #Type
@@ -141,12 +145,10 @@ db.connect( (err) => {
         
             });
             
-
-    
-
-
     }
     
 } );
+
+
 
 module.exports = router;
