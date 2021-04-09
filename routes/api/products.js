@@ -45,25 +45,6 @@ db.connect( (err) => {
             });
         });
 
-        // //Get by #Name
-        // app.get('/products/:name', (req, res) => {
-        //     db.query(`SELECT * FROM products WHERE name = ?`,req.params.name, (err, rows, fields) => {
-        //         if(err){
-        //             res.send({ message: `There is some error => ${err}` });
-        //             throw err;
-        //         }else{
-        //             if(rows.length > 0){
-        //                 res.send({
-        //                     data: rows
-        //                 });
-        //             }else{
-        //                 res.send({ message: "there no data..." });
-        //             }
-                    
-        //         }
-        //     });
-        // });
-
         //Get by type & name
         router.get('/:type/:name', (req, res) => {
             db.query('SELECT * FROM products WHERE productType = ? AND name = ?',[req.params.type, req.params.name], (err, rows, fields) => {
