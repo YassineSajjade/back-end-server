@@ -1,10 +1,15 @@
 const express = require('express');
 const router = express.Router();
-//const db = require('../../connection');
-const products = require('../../data.json');
+const products = require('../../data/data.json');
+
+/* require this if you want to use SGBD 
+    const db = require('../../data/connection');
+*/
 
 
-/* this method for using data FROM JSON file */
+/* this methods for using data FROM JSON file */
+
+    //get All products
     router.get('/', (req,res) => {
         if(products.length > 0){
             res.json({
@@ -17,8 +22,9 @@ const products = require('../../data.json');
         }
 
         
-    })
+    });
 
+    //get All products with specific type
     router.get('/:type', (req,res) => {
         const type = req.params.type;
         const product = products.filter(prod => { return prod.productType.toLowerCase() === type });
@@ -32,8 +38,9 @@ const products = require('../../data.json');
             })
         }
 
-    })
+    });
 
+    //get All products with specific type & name
     router.get('/:type/:name', (req,res) => {
         const type = req.params.type;
         const name = req.params.name;
@@ -51,10 +58,10 @@ const products = require('../../data.json');
             })
         }
 
-    })
+    });
 
+    //add a new product
     router.post('/', (req,res) => {
-
         const newProduct = {
             id : parseInt(req.body.id),
             name : req.body.name,
@@ -70,8 +77,9 @@ const products = require('../../data.json');
             message: `product with id ${newProduct.id} added succesfuly`,
             products: products
         });
-    })
+    });
 
+    //update a product
     router.put('/:id', (req,res) => {
         const found = products.some(prod => prod.id === parseInt(req.params.id));
         if(found){
@@ -92,12 +100,13 @@ const products = require('../../data.json');
                 }
             });
         }else{
-            res.status(400).send({
+            res.status(404).send({
                 message: `There is no product with id ${req.params.id}`
             })
         }
-    })
+    });
 
+    //delete a product
     router.delete('/:id', (req,res) => {
             const found = products.some(prod => prod.id === parseInt(req.params.id));
             if(found){
@@ -106,13 +115,18 @@ const products = require('../../data.json');
                     products: products.filter(prod => prod.id !== parseInt(req.params.id))
                 })
             }else{
-                res.status(400).send({
+                res.status(404).send({
                     message: `There is no product with id ${req.params.id}`
                 });
             }
-    })
+    });
 
-/* this method for using data FROM MySql */
+
+
+
+
+/* this methods for using data FROM MySql */
+
 // db.connect( (err) => {
 //     if(err) {
 //         throw err;
