@@ -47,31 +47,69 @@ const products = require('../../data.json');
             });
         }else{
             res.status(404).send({
-                message: `No product with the name of ${name}`
+                message: `There is no product with the name of ${name}`
             })
         }
 
     })
 
-    router.delete('/:id', (req,res) => {
-        const id = req.params.id;
-        const product = products.filter(prod => 
-            { 
-                if(prod.id === parseInt(id)){
-                    delete prod.id;
+    router.post('/', (req,res) => {
+
+        const newProduct = {
+            id : parseInt(req.body.id),
+            name : req.body.name,
+            brand : req.body.brand,
+            productType : req.body.productType,
+            description : req.body.description,
+            prix : parseFloat(req.body.prix),
+            photo : req.body.photo
+        } ;
+        
+        products.push(newProduct);
+        res.send({
+            message: `product with id ${newProduct.id} added succesfuly`,
+            products: products
+        });
+    })
+
+    router.put('/:id', (req,res) => {
+        const found = products.some(prod => prod.id === parseInt(req.params.id));
+        if(found){
+            const updProduct = req.body;
+            products.forEach(prod => {
+                if(prod.id === parseInt(req.params.id)){
+                    prod.name = updProduct.name ? updProduct.name : prod.name;
+                    prod.brand = updProduct.brand ? updProduct.brand : prod.brand;
+                    prod.productType = updProduct.productType ? updProduct.productType : prod.productType;
+                    prod.descriptions = updProduct.descriptions ? updProduct.descriptions : prod.descriptions;
+                    prod.prix = updProduct.prix ? updProduct.prix : prod.prix;
+                    prod.photo = updProduct.photo ? updProduct.photo : prod.photo;
+
+                    res.send({
+                        message: 'Product updated',
+                        product: prod
+                    });
                 }
-                return prod.id !== id 
-            });
-        if(product.length > 0){
-            res.send({
-                product: product
             });
         }else{
-            res.status(404).send({
-                message: `No product with the id of ${id}`
+            res.status(400).send({
+                message: `There is no product with id ${req.params.id}`
             })
         }
+    })
 
+    router.delete('/:id', (req,res) => {
+            const found = products.some(prod => prod.id === parseInt(req.params.id));
+            if(found){
+                res.send({
+                    message: `Product with id ${req.params.id} deleted`,
+                    products: products.filter(prod => prod.id !== parseInt(req.params.id))
+                })
+            }else{
+                res.status(400).send({
+                    message: `There is no product with id ${req.params.id}`
+                });
+            }
     })
 
 /* this method for using data FROM MySql */
