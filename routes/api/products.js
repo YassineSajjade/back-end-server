@@ -14,12 +14,15 @@ const products = require('../../data/data.json');
         if(products.length > 0){
             res.json({
                 products: products
-            });;
+            });
         }else{
             res.status(404).send({
                 message: 'There is no data !!'
             })
         }
+        res.header('Access-Control-Allow-Origin', '*');
+        res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+        res.header('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
 
         
     });
@@ -37,6 +40,8 @@ const products = require('../../data/data.json');
                 message: 'Ther is no data !!'
             })
         }
+
+       
 
     });
 

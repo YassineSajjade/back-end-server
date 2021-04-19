@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const logger = require('./middleware/logger');
 
 
@@ -14,6 +15,7 @@ app.use( bodyParser.urlencoded({ extended: true }) );
 //init middleWare
 app.use(logger);
 
+app.use(cors());
 app.use('/products',require('./routes/api/products'));
 // app.use(cors());
 
