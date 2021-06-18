@@ -22,4 +22,4 @@ app.use('/products',require('./routes/api/products'));
 
 
 
-app.listen(PORT, () => console.log("Server running on Port 5000"));
+app.listen(PORT, () => console.log(`Server running on Port ${PORT}`));

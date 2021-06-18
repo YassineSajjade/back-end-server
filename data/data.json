@@ -7,7 +7,8 @@
         "productType": "Fresh Meat",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 12,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-18.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-18.png",
+        "qty": 0
     },
     {
         "id": 2,
@@ -16,7 +17,8 @@
         "productType": "Vegetable",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 50,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-22_df2f4015-e37d-4ae2-9fa8-876e15e78566.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-22_df2f4015-e37d-4ae2-9fa8-876e15e78566.png",
+        "qty": 0
     },
     {
         "id": 3,
@@ -25,7 +27,8 @@
         "productType": "Fruits",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 25,
-        "photo": "//cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-20_6dc096c7-db88-496b-b3fe-22b28c244a51.png"
+        "photo": "//cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-20_6dc096c7-db88-496b-b3fe-22b28c244a51.png",
+        "qty": 0
     },
     {
         "id": 4,
@@ -34,7 +37,8 @@
         "productType": "Fruits",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 20,
-        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tAE_vpAZp-u9j-tGDrQjIBbtAgl_PaiHlA&usqp=CAU"
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tAE_vpAZp-u9j-tGDrQjIBbtAgl_PaiHlA&usqp=CAU",
+        "qty": 0
     },
     {
         "id": 5,
@@ -43,7 +47,8 @@
         "productType": "Dry Fruit",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 7,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-3.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-3.png",
+        "qty": 0
     },
     {
         "id": 6,
@@ -52,7 +57,8 @@
         "productType": "Fruits",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 35,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-21_420d48e4-ecf3-4ed0-a30c-1370f8094be2.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-21_420d48e4-ecf3-4ed0-a30c-1370f8094be2.png",
+        "qty": 0
     },
     {
         "id": 7,
@@ -61,7 +67,8 @@
         "productType": "Vegetable",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 30,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-10_13a4d25e-54fe-4372-8c8e-6bf83c55a4f7.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-10_13a4d25e-54fe-4372-8c8e-6bf83c55a4f7.png",
+        "qty": 0
     },
     {
         "id": 9,
@@ -70,7 +77,8 @@
         "productType": "Fruits",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 40,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-1.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-1.png",
+        "qty": 0
     },
     {
         "id": 10,
@@ -79,7 +87,8 @@
         "productType": "Vegetable",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 34,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-15_8c94dda1-f20b-4dbc-a331-8c696e08b7e3.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-15_8c94dda1-f20b-4dbc-a331-8c696e08b7e3.png",
+        "qty": 0
     },
     {
         "id": 14,
@@ -88,7 +97,8 @@
         "productType": "Cookies",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 34,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-7.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-7.png",
+        "qty": 0
     },
     {
         "id": 15,
@@ -97,7 +107,8 @@
         "productType": "Cookies",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 37,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-30_19053d26-edd6-4592-a8d7-791cd0961fc7.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-30_19053d26-edd6-4592-a8d7-791cd0961fc7.png",
+        "qty": 0
     },
     {
         "id": 16,
@@ -106,7 +117,8 @@
         "productType": "Fruits",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 28.5,
-        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-22_df2f4015-e37d-4ae2-9fa8-876e15e78566.png"
+        "photo": "https://cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-22_df2f4015-e37d-4ae2-9fa8-876e15e78566.png",
+        "qty": 0
     },
     {
         "id": 17,
@@ -115,6 +127,7 @@
         "productType": "Fruits",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...",
         "prix": 28,
-        "photo": "//cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-17.png?v=1584094184"
+        "photo": "//cdn.shopify.com/s/files/1/0108/7370/0415/products/Shop-17.png?v=1584094184",
+        "qte":0
     }
 ]
